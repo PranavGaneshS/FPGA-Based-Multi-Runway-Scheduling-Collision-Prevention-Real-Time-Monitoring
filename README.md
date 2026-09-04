@@ -1,4 +1,4 @@
-# Autonomous Multi-Runway Airport Traffic Scheduler with Ultra-Low-Power Tri-OLED Visual Subsystem
+# FPGA-Based-Multi-Runway-Scheduling-Collision-Prevention-Real-Time-Monitoring
 
 [![FPGA](https://img.shields.io/badge/FPGA-Xilinx%20Artix--7%20XC7A35T-red.svg)](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html)
 [![Board](https://img.shields.io/badge/Board-Digilent%20Basys%203-blue.svg)](https://digilent.com/reference/programmable-logic/basys-3/start)
