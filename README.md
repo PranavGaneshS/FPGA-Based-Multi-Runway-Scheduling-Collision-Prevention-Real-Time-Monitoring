@@ -248,7 +248,7 @@ The design is mapped to the standard Digilent Basys 3 board resources:
 
 ```
 Airport_Runway_Scheduler_Basys3/
-├── rtl/
+├── RTL_Codes/
 │   ├── airport_top.v            # Basys 3 top-level system integration wrapper
 │   ├── airport_scheduler.v      # Core priority scheduler, queues, timers & apron logic
 │   ├── oled_controller.v        # Ultra-low-power SSD1306 SPI display controller
@@ -256,7 +256,7 @@ Airport_Runway_Scheduler_Basys3/
 │   └── button_pulse.v           # 20ms debounce filter and edge-detect pulse generator
 ├── constr/
 │   └── basys3_airport.xdc       # Complete physical XDC constraints (Pins, IOSTANDARD, Slew)
-├── sim/
+├── Testbench_Files/
 │   ├── airport_scheduler_tb.v   # Behavioral testbench verifying 12 scheduler edge-case scenarios
 │   └── tb_airport_top.v         # End-to-end top-level board & OLED SPI bus testbench
 ├── docs/
